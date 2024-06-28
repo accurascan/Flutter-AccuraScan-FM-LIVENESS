@@ -125,7 +125,7 @@ Future<void> startLiveness() async{
       await AccuraLiveness.setLivenessFeedBackLowLightMessage("Low light detected");
       await AccuraLiveness.setLivenessfeedbackLowLightTolerence(39);
       await AccuraLiveness.setLivenessURL("You Liveness Url");
-
+      await AccuraLiveness.setLivenessApiKey("Your Api Key");
 
 
       await AccuraLiveness.startLiveness([accuraConfs])

@@ -116,10 +116,9 @@ class _MyAppState extends State<MyApp> {
                   style: ElevatedButton.styleFrom(
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(5.0),
-                      ),
+                      ), backgroundColor: Colors.red[800],
                       padding: const EdgeInsets.only(
-                          top: 10, bottom: 10, right: 20, left: 20),
-                      primary: Colors.red[800]),
+                          top: 10, bottom: 10, right: 20, left: 20)),
                   child: Row(
                     children: [
                       Image.asset(

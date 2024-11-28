@@ -220,42 +220,9 @@ class _FaceMatchState extends State<FaceMatch> {
                         style: ElevatedButton.styleFrom(
                             shape: new RoundedRectangleBorder(
                               borderRadius: new BorderRadius.circular(10.0),
-                            ),
+                            ), backgroundColor: Colors.red[800],
                             padding: EdgeInsets.only(
-                                top: 10, bottom: 10, right: 32, left: 32),
-                            primary: Colors.red[800]),
-                        onPressed: () {
-                          openGallery();
-                        },
-                        child: Row(
-                          children: [
-                            Container(
-                              height: 20,
-                              child: Image(
-                                  image:
-                                      AssetImage("assets/images/gallery.png")),
-                            ),
-                            SizedBox(
-                              width: 5,
-                            ),
-                            Text(
-                              "Gallery",
-                              style: TextStyle(color: Colors.white),
-                            )
-                          ],
-                        ),
-                      ),
-                      SizedBox(
-                        width: 22,
-                      ),
-                      ElevatedButton(
-                        style: ElevatedButton.styleFrom(
-                            shape: new RoundedRectangleBorder(
-                              borderRadius: new BorderRadius.circular(10.0),
-                            ),
-                            padding: EdgeInsets.only(
-                                top: 10, bottom: 10, right: 32, left: 32),
-                            primary: Colors.red[800]),
+                                top: 10, bottom: 10, right: 32, left: 32)),
                         onPressed: () {
                           openCamera();
                         },
@@ -322,42 +289,9 @@ class _FaceMatchState extends State<FaceMatch> {
                         style: ElevatedButton.styleFrom(
                             shape: new RoundedRectangleBorder(
                               borderRadius: new BorderRadius.circular(10.0),
-                            ),
+                            ), backgroundColor: Colors.red[800],
                             padding: EdgeInsets.only(
-                                top: 10, bottom: 10, right: 32, left: 32),
-                            primary: Colors.red[800]),
-                        onPressed: () {
-                          openGallery2();
-                        },
-                        child: Row(
-                          children: [
-                            Container(
-                              height: 20,
-                              child: Image(
-                                  image:
-                                      AssetImage("assets/images/gallery.png")),
-                            ),
-                            SizedBox(
-                              width: 5,
-                            ),
-                            Text(
-                              "Gallery",
-                              style: TextStyle(color: Colors.white),
-                            )
-                          ],
-                        ),
-                      ),
-                      SizedBox(
-                        width: 22,
-                      ),
-                      ElevatedButton(
-                        style: ElevatedButton.styleFrom(
-                            shape: new RoundedRectangleBorder(
-                              borderRadius: new BorderRadius.circular(10.0),
-                            ),
-                            padding: EdgeInsets.only(
-                                top: 10, bottom: 10, right: 32, left: 32),
-                            primary: Colors.red[800]),
+                                top: 10, bottom: 10, right: 32, left: 32)),
                         onPressed: () {
                           openCamera2();
                         },

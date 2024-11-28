@@ -2,6 +2,7 @@
     package="com.accurascan.flutter_fm_liveness">
    <application
         android:label="flutter_fm_liveness"
+       android:usesCleartextTraffic="true"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

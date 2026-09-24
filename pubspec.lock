@@ -66,10 +66,10 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_accurascan_fm_liveness
-      sha256: "8809083b660577da2f5d3413c85b4dfbd265508bc196a6d15327b75052cbba1c"
+      sha256: a92afe5d4ede3a09d28e7e6407c6d86dfd38a159faf31aa42a7b88fd5c84298d
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.3"
+    version: "1.0.4"
   flutter_lints:
     dependency: "direct dev"
     description:

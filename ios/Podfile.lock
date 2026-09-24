@@ -1,0 +1,29 @@
+PODS:
+  - AccuraLiveness_FM (4.4.2)
+  - Flutter (1.0.0)
+  - flutter_accurascan_fm_liveness (0.0.1):
+    - AccuraLiveness_FM (= 4.4.2)
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_accurascan_fm_liveness (from `.symlinks/plugins/flutter_accurascan_fm_liveness/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AccuraLiveness_FM
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_accurascan_fm_liveness:
+    :path: ".symlinks/plugins/flutter_accurascan_fm_liveness/ios"
+
+SPEC CHECKSUMS:
+  AccuraLiveness_FM: 223a2921fdb3dc2ccb11a46eb68f3365df4c7827
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_accurascan_fm_liveness: 1b039ee5e599c42e2aad96afe297bee97d918be2
+
+PODFILE CHECKSUM: 4e8f8b2be68aeea4c0d5beb6ff1e79fface1d048
+
+COCOAPODS: 1.16.2

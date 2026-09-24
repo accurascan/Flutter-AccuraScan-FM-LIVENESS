@@ -32,13 +32,15 @@ Import flutter library into file.
 
 ```
 allprojects {
-   repositories {
-       google()
-       jcenter()
-       maven {
-           url 'https://jitpack.io'
-           credentials { username 'jp_ssguccab6c5ge2l4jitaj92ek2' }
-       }    
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io/' }
+        maven { url 'https://developer.huawei.com/repo/' } // Add Huawei Maven
+        maven {
+            url 'https://jitpack.io'
+            credentials { username 'jp_ssguccab6c5ge2l4jitaj92ek2' }
+        }
     }
 }
 ```
